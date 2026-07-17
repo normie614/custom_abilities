@@ -139,6 +139,9 @@ public void OnKnifeStartTouch(int entity, int other)
 	if (other == owner)
         return;
 
+    if (TF2_GetClientTeam(other) == TF2_GetClientTeam(owner))
+        return;
+
 	bool hitPlayer = IsValidClientIndex(other);
 
 	if (hitPlayer && validOwner)
