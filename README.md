@@ -2,7 +2,7 @@
 
 A configurable Team Fortress 2 SourceMod plugin that aims to reimagine existing weapons by giving them new mechanics, alternative firing modes and unique abilities.
 
-> **Current Version:** `1.0.0`
+> **Current Version:** `1.0.1 - Hotfix`
 
 > **Status:** First public release. While the plugin should be fully playable, bugs and balance issues are expected.
 ---
