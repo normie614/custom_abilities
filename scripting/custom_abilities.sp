@@ -10,7 +10,7 @@
 #pragma newdecls required
 #pragma semicolon 1
 
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "1.0.1"
 
 #define MAXENTITIES 2048
 #define VSH // Comment this out if you want the abilities to work for both teams, wouldnt recommend if bosses also use similar weapons.
