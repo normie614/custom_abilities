@@ -2,7 +2,7 @@
 
 ## [1.0.1] - Hotfix
 
-## Nerfed
+### Nerfed
 - Medic shield no longer causing massive damage to enemies.
 - Medic shield now forces you to keep using your secondary.
 
