@@ -9,3 +9,4 @@
 ### Fixed
 - Kamikaze exploding repeatedly during pre-round due to instant respawn.
 - Pomson HUD showing a fixed value instead of the streak cvar's float value.
+- Knives applying the effect to teammates.
