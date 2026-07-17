@@ -188,8 +188,6 @@ Damage / Healing requirements and cooldowns are fully configurable.
 
 # Configuration
 
-Every mechanic can be configured through ConVars.
-
 The plugin automatically creates:
 
 ```
@@ -213,14 +211,6 @@ The thrown knife system is highly customizable. If you wish to change damage val
 ```
 addons/sourcemod/scripting/custom_abilities/mechanics/throwing_knives.sp
 ```
-
----
-
-# Notes
-
-* This is the **first public release (1.0.0)**.
-* Balance is expected to evolve over future releases.
-* Suggestions for new abilities and balance changes are always welcome.
 
 ---
 
