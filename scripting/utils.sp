@@ -128,11 +128,11 @@ stock void UTIL_MakeConVars()
 	cvarFatScoutLifesteal = CreateConVar("sm_ca_fatscout_lifesteal", "80.0", "Maximum health gained from shotgun damage.", FCVAR_NOTIFY, true, 0.0, true, 500.0);
 	cvarPomsonKnockbackVertical = CreateConVar("sm_ca_pomson_knockback_vertical", "500.0", "Vertical knockback force applied when a player is hit by the Pomson.", FCVAR_NOTIFY);
 	cvarPomsonKnockbackHorizontal = CreateConVar("sm_ca_pomson_knockback_horizontal", "-200.0", "Horizontal knockback force applied when a player is hit by the Pomson.", FCVAR_NOTIFY);
-	cvarPomsonDamagePerStack = CreateConVar("sm_ca_pomson_damage_per_stack", "0.1","Damage multiplier increase per consecutive airshot hit stack (e.g. 0.05 = +5% damage per stack).", FCVAR_NOTIFY, true, 0.0);
+	cvarPomsonDamagePerStack = CreateConVar("sm_ca_pomson_damage_per_stack", "0.3","Damage multiplier increase per consecutive airshot hit stack (e.g. 0.05 = +5% damage per stack).", FCVAR_NOTIFY, true, 0.0);
 	cvarSentryMaxGlowTime = CreateConVar("sm_ca_sentry_max_glow_time", "5.0", "Cap for how long a sentry can leave you revealed using glow.", FCVAR_NOTIFY);
 	cvarSentryGlowTimeToAdd = CreateConVar("sm_ca_sentry_glow_time_to_add", "0.2", "Glow duration added for each sentry hit.", FCVAR_NOTIFY);
 	cvarMedicShieldShouldPush = CreateConVar("sm_ca_vaccinator_shield_should_push", "1.0", "Whether the Vaccinator shield should push enemies away.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
-	cvarMedicShieldCooldown = CreateConVar("sm_ca_vaccinator_shield_cooldown", "70.0", "Whether the Vaccinator shield should push enemies away.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
+	cvarMedicShieldCooldown = CreateConVar("sm_ca_vaccinator_shield_cooldown", "70.0", "Whether the Vaccinator shield should push enemies away.", FCVAR_NOTIFY, true, 0.0);
 	cvarHuntsmanMinHeightForAirshot = CreateConVar("sm_ca_huntsman_min_height_for_airshot", "100.0", "Height threshold for the hit to count as an airshot.", FCVAR_NOTIFY);
 	cvarHuntsmanAirshotDamageMultiplier = CreateConVar("sm_ca_huntsman_airshot_damage_multiplier", "2.0", "Multiplier for the damage done after hitting an airshot.", FCVAR_NOTIFY);
 	cvarDiamondbackStartingClip = CreateConVar("sm_ca_diamondback_starting_clip", "4.0", "Starting rocket clip size for the Spy (if picking up ammo packs are disabled; backstabs gives ammo)", FCVAR_NOTIFY);
